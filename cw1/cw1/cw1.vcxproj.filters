@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CW2">
+      <UniqueIdentifier>{2f49bc6f-0c3c-4b04-9b91-2ceb609e217c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CW3">
+      <UniqueIdentifier>{4294c1ab-16d3-4935-bdd0-9a1e13960a70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CW4">
+      <UniqueIdentifier>{31c31708-0346-407e-8be5-68d19d517084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CW5">
+      <UniqueIdentifier>{a6094f6a-247b-47ec-9c64-754883a454ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="zadanie.cpp">
+      <Filter>CW2</Filter>
+    </ClCompile>
+    <ClCompile Include="zadanie2.cpp">
+      <Filter>CW2</Filter>
+    </ClCompile>
+    <ClCompile Include="zadanieCW3.cpp">
+      <Filter>CW3</Filter>
+    </ClCompile>
+    <ClCompile Include="zadCW3v1.cpp">
+      <Filter>CW3</Filter>
+    </ClCompile>
+    <ClCompile Include="CW4.cpp">
+      <Filter>CW4</Filter>
+    </ClCompile>
+    <ClCompile Include="ccw5.cpp">
+      <Filter>CW5</Filter>
+    </ClCompile>
+    <ClCompile Include="ccw52.cpp">
+      <Filter>CW5</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cww1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cww2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="librarys.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zadanie.h">
+      <Filter>CW2</Filter>
+    </ClInclude>
+    <ClInclude Include="zadanie2.h">
+      <Filter>CW2</Filter>
+    </ClInclude>
+    <ClInclude Include="cww3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zadanieCW3.h">
+      <Filter>CW3</Filter>
+    </ClInclude>
+    <ClInclude Include="zadCW3v1.h">
+      <Filter>CW3</Filter>
+    </ClInclude>
+    <ClInclude Include="cww4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CW4.h">
+      <Filter>CW4</Filter>
+    </ClInclude>
+    <ClInclude Include="cww5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ccw5.h">
+      <Filter>CW5</Filter>
+    </ClInclude>
+    <ClInclude Include="ccw52.h">
+      <Filter>CW5</Filter>
+    </ClInclude>
+    <ClInclude Include="cww6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cww9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cw9.1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cw9.2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cw9,3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
