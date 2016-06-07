@@ -1,5 +1,6 @@
 #include "librarys.h"
 #include<map>
+#include <sstream>
 
 
 typedef map<int, char> mapa_rosnaca;
@@ -96,3 +97,20 @@ void cwww94(){
 
 
 }
+
+typedef multimap<string, char> mmap_str;
+
+void cwww95(){
+	mmap_str mapa1;
+	string w,ww; 
+	
+		mapa1.insert(make_pair("klucz1", char( 100)));
+		mapa1.insert(make_pair("klucz2", char(100)));
+		mapa1.insert(make_pair("klucz3", char(100)));
+		//mapa1["klucz4"] = 'd';
+		mmap_str::iterator iter;
+		Drukuj2(mapa1);
+		iter = mapa1.find("klucz2");
+		mapa1.erase(iter);
+			Drukuj2(mapa1);
+	}

@@ -120,7 +120,7 @@ int main()
 
 
 		case 9:system("cls"); system("Color 0B"); //----------CW6
-			cout << "Wybierz opcje \n [0]-return \n [1]-vector\n [2]- vektor nr 2\n [3]-  \n [4]- String\n" << endl;
+			cout << "Wybierz opcje \n [0]-return \n [1]-vector\n [2]- vektor nr 2\n [3]-Vektor(string)  \n [4]- String\n [5]- String cd." << endl;
 			cin >> casey;
 			system("cls"); system("Color 0F");//wyczyszczenie konsoli i zmiana jej koloru
 			switch (casey){
@@ -129,6 +129,7 @@ int main()
 			case 2:  cw92(); break;
 			case 3:  cw93(); break;
 			case 4:  cw94(); break;
+			case 5:  cw95(); break;
 			default: cout << "Wybra³eœ zla opcje"; break;
 			}
 			break;
@@ -146,7 +147,7 @@ int main()
 			}
 			break;
 		case 92:system("cls"); system("Color 0B"); //----------CW6
-			cout << "Wybierz opcje \n [0]-return \n [1]-set\n [2]-multiset\n [3]-map\n [4]-multimap\n" << endl;
+			cout << "Wybierz opcje \n [0]-return \n [1]-set\n [2]-multiset\n [3]-map\n [4]-multimap\n [5]-multimap(string)" << endl;
 			cin >> casey;
 			system("cls"); system("Color 0F");//wyczyszczenie konsoli i zmiana jej koloru
 			switch (casey){
@@ -155,6 +156,7 @@ int main()
 			case 2:  cwww92(); break;
 			case 3:  cwww93(); break;
 			case 4:  cwww94(); break;
+			case 5:  cwww95(); break;
 			default: cout << "Wybra³eœ zla opcje"; break;
 			}
 			break;

@@ -102,7 +102,21 @@ void cw92(){
 
 	
 }
-void cw93(){}
+void cw93(){
+	vector<string> vektor;
+	vektor.push_back("kot");
+	vektor.push_back("OWCA");
+	Drukuj(vektor);
+	vector<string>::iterator iter;
+	iter = vektor.begin();
+	cout << *iter << endl;
+
+	vektor.erase(iter);
+	Drukuj(vektor);
+
+}
+
+
 void cw94(){
 
 	string wyraz, cos;
@@ -142,3 +156,32 @@ void cw94(){
 		
 	
 	}
+void cw95(){
+	string wyraz;
+	string str("Test string");
+	for (unsigned int i = 0; i<str.length(); ++i)
+	{
+		cout << str.at(i); //wypisuje ca³e s³owo w pêtli 
+	}
+	cout << endl;
+
+	for (unsigned int i = 0; i<str.length(); ++i)
+	{
+		cout << str[i]; //wypisuje ca³e s³owo w pêtli 
+	}
+	cout << endl;
+	cout <<"Ostatnia znak " <<str.back() <<"  Pierwszy znak: "<<str.front()<< endl;//odczytywanie pierwszego i ostatniego znaku
+
+	cout << wyraz.append(str, 2, 8) << endl << endl;;//Wyœwietlenie s³owa str ale do 2 do 8 znaku 
+	wyraz = "wiesz co";
+	cout << wyraz.append("TO S£OWO MA WIÊCEJ NI¯ 5 ZNAKÓW ", 8) << endl;;//wyœwietlenie tylko zawartoœci wyraz + 8 znaków z tekstu w nawiasie 
+	//
+	str.assign(wyraz);
+	std::cout << str << '\n';//wyœwietlenie ca³ej zawartoœci wyraz 
+
+	str.assign(wyraz, 2, 6);//wklejenie 6 znaków zawartoœci wyraz od 2 znaku do 8 znaku  
+	std::cout << str << '\n';  
+
+	str.assign(" co to ma znaczyæ ", 7);//wklejenie pod str 7 znaków podanego zdania w nawiasie  
+	std::cout << str << '\n';
+}

@@ -1,15 +1,15 @@
-﻿Build started 04.06.2016 11:37:32.
-     1>Project "D:\Studia Projekty\infa\cw1\cw1\cw1\cw1.vcxproj" on node 2 (Build target(s)).
+﻿Build started 07.06.2016 19:37:14.
+     1>Project "D:\Studia Projekty\infa\cw1\cwiczenia 2015_2016\cw1\cw1.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
-     1>d:\studia projekty\infa\cw1\cw1\cw1\cww1.h(49): warning C4305: 'initializing' : truncation from 'double' to 'float'
-     1>d:\studia projekty\infa\cw1\cw1\cw1\cww1.h(106): warning C4101: 'cwicw1' : unreferenced local variable
-     1>d:\studia projekty\infa\cw1\cw1\cw1\cww4.h(17): warning C4620: no postfix form of 'operator ++' found for type 'Car', using prefix form
-                 d:\studia projekty\infa\cw1\cw1\cw1\cw4.h(4) : see declaration of 'Car'
-     1>d:\studia projekty\infa\cw1\cw1\cw1\cww5.h(61): warning C4101: 'ptr' : unreferenced local variable
+     1>d:\studia projekty\infa\cw1\cwiczenia 2015_2016\cw1\cww1.h(49): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\studia projekty\infa\cw1\cwiczenia 2015_2016\cw1\cww1.h(106): warning C4101: 'cwicw1' : unreferenced local variable
+     1>d:\studia projekty\infa\cw1\cwiczenia 2015_2016\cw1\cww4.h(17): warning C4620: no postfix form of 'operator ++' found for type 'Car', using prefix form
+                 d:\studia projekty\infa\cw1\cwiczenia 2015_2016\cw1\cw4.h(4) : see declaration of 'Car'
+     1>d:\studia projekty\infa\cw1\cwiczenia 2015_2016\cw1\cww5.h(61): warning C4101: 'ptr' : unreferenced local variable
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Studia Projekty\infa\cw1\cw1\Debug\cw1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Studia Projekty\infa\cw1\cw1\Debug\cw1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Studia Projekty\infa\cw1\cw1\Debug\cw1.lib" /MACHINE:X86 Debug\ccw5.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Studia Projekty\infa\cw1\cwiczenia 2015_2016\Debug\cw1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Studia Projekty\infa\cw1\cwiczenia 2015_2016\Debug\cw1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Studia Projekty\infa\cw1\cwiczenia 2015_2016\Debug\cw1.lib" /MACHINE:X86 Debug\ccw5.obj
          Debug\ccw52.obj
          Debug\CW4.obj
          Debug\main.obj
@@ -17,9 +17,9 @@
          Debug\zadanie2.obj
          Debug\zadanieCW3.obj
          Debug\zadCW3v1.obj
-         cw1.vcxproj -> D:\Studia Projekty\infa\cw1\cw1\Debug\cw1.exe
-     1>Done Building Project "D:\Studia Projekty\infa\cw1\cw1\cw1\cw1.vcxproj" (Build target(s)).
+         cw1.vcxproj -> D:\Studia Projekty\infa\cw1\cwiczenia 2015_2016\Debug\cw1.exe
+     1>Done Building Project "D:\Studia Projekty\infa\cw1\cwiczenia 2015_2016\cw1\cw1.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.88
+Time Elapsed 00:00:02.03
